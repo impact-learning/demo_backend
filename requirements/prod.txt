@@ -1,0 +1,19 @@
+Flask
+
+# Flask Extensions
+Flask-DebugToolbar
+
+# comm
+flask-socketio
+eventlet
+
+# DB
+rethinkdb
+https://storage.googleapis.com/tensorflow/mac/tensorflow-0.9.0rc0-py2-none-any.whl
+
+# Async lib
+tornado
+
+
+# Other
+itsdangerous

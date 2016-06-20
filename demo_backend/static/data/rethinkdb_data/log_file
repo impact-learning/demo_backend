@@ -1,0 +1,32 @@
+2016-06-18T21:43:06.258437000 0.305224s notice: Recursively removing directory /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/tmp
+2016-06-18T21:43:06.259751000 0.306542s notice: Initializing directory /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data
+2016-06-18T21:43:06.259835000 0.306620s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data' did not already exist or is empty.)
+2016-06-18T21:43:06.259862000 0.306647s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-06-18T21:43:06.263919000 0.310706s notice: Running on Darwin 15.5.0 x86_64
+2016-06-18T21:43:06.263949000 0.310734s notice: Loading data from directory /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data
+2016-06-18T21:43:06.331291000 0.378078s info: Automatically using cache size of 931 MB
+2016-06-18T21:43:06.332513000 0.379299s notice: Listening for intracluster connections on port 29015
+2016-06-18T21:43:06.334004000 0.380790s notice: Listening for client driver connections on port 28015
+2016-06-18T21:43:06.334128000 0.380914s notice: Listening for administrative HTTP connections on port 8080
+2016-06-18T21:43:06.334130000 0.380916s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-18T21:43:06.334133000 0.380919s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-18T21:43:06.334135000 0.380921s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-18T21:43:06.334139000 0.380924s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-18T21:43:06.334142000 0.380928s notice: Server ready, "Terrences_MacBook_Pro_local_lea" 661f4c24-e833-4341-8ca3-4443b0f3a5e4
+2016-06-19T17:39:37.793058000 27753.083159s notice: Server got SIGINT from pid 20829, uid 501; shutting down...
+2016-06-19T17:39:37.793374000 27753.083474s notice: Shutting down client connections...
+2016-06-19T17:39:37.793634000 27753.083735s notice: All client connections closed.
+2016-06-19T17:39:37.793645000 27753.083745s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-06-19T17:39:37.797402000 27753.087503s notice: Storage engine shut down.
+2016-06-20T11:16:34.617619000 0.340621s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-06-20T11:16:34.621346000 0.344344s notice: Running on Darwin 15.5.0 x86_64
+2016-06-20T11:16:34.621371000 0.344368s notice: Loading data from directory /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data
+2016-06-20T11:16:34.643366000 0.366363s info: Automatically using cache size of 3193 MB
+2016-06-20T11:16:34.645064000 0.368061s notice: Listening for intracluster connections on port 29015
+2016-06-20T11:16:34.646385000 0.369382s notice: Listening for client driver connections on port 28015
+2016-06-20T11:16:34.646546000 0.369543s notice: Listening for administrative HTTP connections on port 8080
+2016-06-20T11:16:34.646548000 0.369545s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-20T11:16:34.646550000 0.369547s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-20T11:16:34.646552000 0.369549s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-20T11:16:34.646555000 0.369552s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-20T11:16:34.646558000 0.369555s notice: Server ready, "Terrences_MacBook_Pro_local_lea" 661f4c24-e833-4341-8ca3-4443b0f3a5e4
