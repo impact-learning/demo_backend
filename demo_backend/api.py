@@ -17,7 +17,9 @@ def test_message(message):
 def handle_search(county):
     conn = r.connect(ProdConfig.DB_HOST, ProdConfig.DB_PORT)
     cursor = db.table('township_village').pluck(['county', 'township', 'village', 'coordinates']).run(conn)
+    villages = []
     for item in cursor:
-        emit('search response', item)
+        villages.append(item)
+    emit('search response', villages)
 
     conn.close()
