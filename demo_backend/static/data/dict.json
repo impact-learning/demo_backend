@@ -1,0 +1,23 @@
+{
+  "familiy_member": "家庭人数",
+  "age_below6_or_above60": "少于6 岁或大于60岁的家庭成员",
+  "attend_lesson": "是否有家庭成员在接受了义务教育",
+  "edu_lv": "家庭成员的劳动力中接受的最高教育",
+  "member_work_out_of_town": "有多少位家庭成员在外",
+  "family_member_earn_from_other_industry": "家庭成员通过务,农以外的工作获得固定收入",
+  "house_material": "家庭住宅的结构材料",
+  "fuel_type": "家庭主要的生活燃料",
+  "water_source": "家庭主要的生活用水来源",
+  "color_tv": "是否有彩色电视",
+  "fridge": "是否有电冰箱或冰柜",
+  "washing_machine": "是否有洗衣机",
+  "auto_transportation": "家庭中最好的机械化运输工具",
+  "agri_tool": "家庭中最好的农业设备",
+  "family_insurance": "家庭保险类型",
+  "minimum_living_std_subsidy": "是否是五保户",
+  "overall": "总分",
+  "average_income_per_capita": "人均收入",
+  "forest_area": "家庭现有林地面积",
+  "planting_area": "种植面积",
+  "number_of_trees": "造林株数"
+}

@@ -1,0 +1,702 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "name": "金秀镇六拉村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.18394058186335, 24.13800001458207]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "金秀镇和平村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.05348401279947, 24.157384954651995]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "金秀镇金田村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.13311768951553, 24.146754503645905]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "金秀镇罗孟村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.21481325989043, 24.090975901896307]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "金秀镇共和村",
+            "project village": "Yes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.25053417435859, 24.122929786979316]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "金秀镇长二村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.22099894086698, 24.197468008151425]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "金秀镇六段村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.19698066608417, 24.227545931292184]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡忠山村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.36315814961623, 24.17714508711037]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡林秀村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.35836564003078, 24.16932857901766]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡石鼓村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.42289733886717, 24.163325500802458]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡车田村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.3700125528605, 24.20284576571921]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡三合村",
+            "project village": "Yes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.3302235779303, 24.206285029280004]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡巴勒村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.35112114879699, 24.266691003820487]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡永和村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.2718218332148, 24.2134762167253]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡双合村",
+            "project village": "Yes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.31512160005062, 24.14550386235107]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡德香村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.40918853237862, 24.122929786979316]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡六干村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.334347365248, 24.097541768694185]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "忠良乡六卜村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.37826012749589, 24.07309173138018]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇那安村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.05966969377602, 24.30639886493147]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇七建村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.05900097150828, 24.282636680329624]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇皆村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.06652409702029, 24.27888475644512]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇三友村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.05075339687289, 24.267003664144198]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇太山村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.97178844242457, 24.277634115150285]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇高仁村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.02946573801667, 24.244429588772444]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇桐木村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.97797412340111, 24.202533105395503]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇那马村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.96081025186258, 24.227233270968476]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇龙庆村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.97518778061888, 24.17995903002375]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇仁里村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.96526840031414, 24.16051155788908]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇古院村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.94464946372567, 24.181834991966]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇鹿鸣村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.03565141899321, 24.192778103295797]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇古池村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.0250075895651, 24.17995903002375]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "桐木镇大蚕村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.01776309833132, 24.16238751983133]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "头排镇二排村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.03442542816903, 24.344918616812357]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "头排镇头排村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.05348401279947, 24.33397550548256]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "头排镇同扶村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.08028863036449, 24.314590565412633]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "头排镇夏塘村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.09037519123616, 24.32740963868468]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三角乡三角村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.14203398641865, 24.306711525255178]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三角乡龙围村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.10547716911583, 24.303772518212316]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三角乡小冲村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.1743555626925, 24.33147422289289]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三角乡六定村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.20216326365912, 24.351484483610236]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三角乡甲江村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.15440534837174, 24.263564400583405]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三角乡江燕村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.11801571163585, 24.230985194852977]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡罗香村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.24473858137155, 23.936083977531116]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡琼伍村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.26190245291008, 23.915948652684285]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡山茶村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.24195223858933, 23.905630862001907]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡龙坪村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.28692381109448, 23.899002463139286]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡罗运村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.19046062397376, 23.93889792044449]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡大新村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.26602624022777, 23.968350522937833]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡罗丹村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.17981679454566, 23.985296712482832]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡大垌村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.28352447290015, 24.030444863226343]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "罗香乡平竹村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.24195223858933, 24.02200303448621]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "长垌乡长垌村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.09639369164577, 24.070277788466804]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "长垌乡道江村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.1379659259566, 24.10542080885164]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "长垌乡平道村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.07889545897338, 24.095665806751935]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "长垌乡桂田村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.14860975538471, 24.07340439170389]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "长垌乡镇冲村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.07337850026457, 24.03013220290263]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "长垌乡滴水村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.12074632756244, 24.027318259989258]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "长垌乡平孟村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.13517958317438, 23.99098713037433]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "大樟乡大樟村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.89744881699474, 23.88487021650766]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "大樟乡互助村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.90346731740435, 23.881305888817383]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "大樟乡双化村",
+            "project village": "Yes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.95256267722719, 23.922264391223198]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "大樟乡玲马村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.88251401968199, 23.853041395554136]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "大樟乡花炉村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.91411114683245, 23.834969628843783]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "大樟乡三古村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.86707768066846, 23.815209496385407]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "大樟乡瓦厂村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.98655605917037, 23.843786649972362]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "大樟乡新村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [109.86568450927734, 23.780003943935828]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三江乡三江村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.13590403229776, 24.399321513137636]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三江乡合兴村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.07270977799683, 24.399321513137636]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三江乡同化村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.11874016075923, 24.38618977954188]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三江乡柘山村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.19631194381644, 24.4052620592881]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三江乡古范村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.12041196642858, 24.35867567105553]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "三江乡长乐村",
+            "project village": "Yes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.22272647339196, 24.36555419817712]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "六巷乡六巷村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.05588026759219, 23.900878425081537]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "六巷乡青山村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.01776309833132, 23.961471995816243]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "六巷乡大岭村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.05654898985992, 23.937959939473366]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "六巷乡门头村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.00745363003708, 23.872989124206736]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "六巷乡王钳村"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [110.061397226301, 23.843473989648654]
+        }
+    }]
+}

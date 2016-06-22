@@ -30,3 +30,360 @@
 2016-06-20T11:16:34.646552000 0.369549s notice: Listening on http addresses: 127.0.0.1, ::1
 2016-06-20T11:16:34.646555000 0.369552s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2016-06-20T11:16:34.646558000 0.369555s notice: Server ready, "Terrences_MacBook_Pro_local_lea" 661f4c24-e833-4341-8ca3-4443b0f3a5e4
+2016-06-20T14:42:44.401389000 8845.540999s info: Table 0992586f-a264-4099-986b-f34cf02cc5d4: Starting a new Raft election for term 1.
+2016-06-20T14:42:44.402606000 8845.542216s info: Table 0992586f-a264-4099-986b-f34cf02cc5d4: Added replica on this server.
+2016-06-20T14:42:44.411969000 8845.551579s info: Table 0992586f-a264-4099-986b-f34cf02cc5d4: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T12:28:32.701875000 44587.983770s info: Table de57b345-df11-4e69-a8bf-b99498f205b1: Starting a new Raft election for term 1.
+2016-06-21T12:28:32.702018000 44587.983911s info: Table de57b345-df11-4e69-a8bf-b99498f205b1: Added replica on this server.
+2016-06-21T12:28:32.710559000 44587.992452s info: Table de57b345-df11-4e69-a8bf-b99498f205b1: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T12:56:15.794872000 46251.110975s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/0992586f-a264-4099-986b-f34cf02cc5d4
+2016-06-21T12:56:15.794882000 46251.110985s info: Table 0992586f-a264-4099-986b-f34cf02cc5d4: Deleted the table.
+2016-06-21T13:08:38.533784000 46993.865116s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/de57b345-df11-4e69-a8bf-b99498f205b1
+2016-06-21T13:08:38.533791000 46993.865123s info: Table de57b345-df11-4e69-a8bf-b99498f205b1: Deleted the table.
+2016-06-21T13:13:21.388957000 47276.726066s info: Table 8b63a1d0-928d-44a3-a681-a2bc88871228: Starting a new Raft election for term 1.
+2016-06-21T13:13:21.389148000 47276.726257s info: Table 8b63a1d0-928d-44a3-a681-a2bc88871228: Added replica on this server.
+2016-06-21T13:13:21.397039000 47276.734148s info: Table 8b63a1d0-928d-44a3-a681-a2bc88871228: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:13:30.076362000 47285.413635s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/8b63a1d0-928d-44a3-a681-a2bc88871228
+2016-06-21T13:13:30.076370000 47285.413643s info: Table 8b63a1d0-928d-44a3-a681-a2bc88871228: Deleted the table.
+2016-06-21T13:13:30.186722000 47285.523995s info: Table 1a5cfeb1-105c-4efd-9698-06abd1bac735: Starting a new Raft election for term 1.
+2016-06-21T13:13:30.186906000 47285.524179s info: Table 1a5cfeb1-105c-4efd-9698-06abd1bac735: Added replica on this server.
+2016-06-21T13:13:30.196050000 47285.533324s info: Table 1a5cfeb1-105c-4efd-9698-06abd1bac735: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:15:28.126785000 47403.466475s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/1a5cfeb1-105c-4efd-9698-06abd1bac735
+2016-06-21T13:15:28.126794000 47403.466483s info: Table 1a5cfeb1-105c-4efd-9698-06abd1bac735: Deleted the table.
+2016-06-21T13:15:28.232463000 47403.572152s info: Table 476a1f63-ecbb-4767-bc11-642894a46215: Starting a new Raft election for term 1.
+2016-06-21T13:15:28.232600000 47403.572289s info: Table 476a1f63-ecbb-4767-bc11-642894a46215: Added replica on this server.
+2016-06-21T13:15:28.240696000 47403.580385s info: Table 476a1f63-ecbb-4767-bc11-642894a46215: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:15:48.890250000 47424.230350s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/476a1f63-ecbb-4767-bc11-642894a46215
+2016-06-21T13:15:48.890258000 47424.230356s info: Table 476a1f63-ecbb-4767-bc11-642894a46215: Deleted the table.
+2016-06-21T13:15:49.002783000 47424.342883s info: Table 948c3299-7849-4906-8208-e21038a9a0ec: Starting a new Raft election for term 1.
+2016-06-21T13:15:49.002927000 47424.343026s info: Table 948c3299-7849-4906-8208-e21038a9a0ec: Added replica on this server.
+2016-06-21T13:15:49.010580000 47424.350679s info: Table 948c3299-7849-4906-8208-e21038a9a0ec: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:33:25.220599000 48480.581879s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/948c3299-7849-4906-8208-e21038a9a0ec
+2016-06-21T13:33:25.220607000 48480.581886s info: Table 948c3299-7849-4906-8208-e21038a9a0ec: Deleted the table.
+2016-06-21T13:33:25.379741000 48480.741020s info: Table 2019a01e-7a6b-4f88-a2ca-6cbbc7ca2026: Starting a new Raft election for term 1.
+2016-06-21T13:33:25.379939000 48480.741218s info: Table 2019a01e-7a6b-4f88-a2ca-6cbbc7ca2026: Added replica on this server.
+2016-06-21T13:33:25.387960000 48480.749239s info: Table 2019a01e-7a6b-4f88-a2ca-6cbbc7ca2026: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:34:02.379864000 48517.741860s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/2019a01e-7a6b-4f88-a2ca-6cbbc7ca2026
+2016-06-21T13:34:02.379871000 48517.741867s info: Table 2019a01e-7a6b-4f88-a2ca-6cbbc7ca2026: Deleted the table.
+2016-06-21T13:34:02.499918000 48517.861914s info: Table c0b5c5bf-879a-43f5-acb5-7304a731ccef: Starting a new Raft election for term 1.
+2016-06-21T13:34:02.500119000 48517.862116s info: Table c0b5c5bf-879a-43f5-acb5-7304a731ccef: Added replica on this server.
+2016-06-21T13:34:02.508305000 48517.870301s info: Table c0b5c5bf-879a-43f5-acb5-7304a731ccef: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:35:20.023096000 48595.386646s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/c0b5c5bf-879a-43f5-acb5-7304a731ccef
+2016-06-21T13:35:20.023105000 48595.386654s info: Table c0b5c5bf-879a-43f5-acb5-7304a731ccef: Deleted the table.
+2016-06-21T13:35:20.143720000 48595.507270s info: Table 09392634-fe14-4403-9ace-36ffaef37e42: Starting a new Raft election for term 1.
+2016-06-21T13:35:20.143915000 48595.507465s info: Table 09392634-fe14-4403-9ace-36ffaef37e42: Added replica on this server.
+2016-06-21T13:35:20.152691000 48595.516241s info: Table 09392634-fe14-4403-9ace-36ffaef37e42: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:35:51.086727000 48626.450875s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/09392634-fe14-4403-9ace-36ffaef37e42
+2016-06-21T13:35:51.086735000 48626.450882s info: Table 09392634-fe14-4403-9ace-36ffaef37e42: Deleted the table.
+2016-06-21T13:35:51.222748000 48626.586895s info: Table 0ab27afd-344c-4614-a9d8-ca4a7ab828b4: Starting a new Raft election for term 1.
+2016-06-21T13:35:51.222948000 48626.587095s info: Table 0ab27afd-344c-4614-a9d8-ca4a7ab828b4: Added replica on this server.
+2016-06-21T13:35:51.230974000 48626.595121s info: Table 0ab27afd-344c-4614-a9d8-ca4a7ab828b4: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:38:17.882095000 48773.249150s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/0ab27afd-344c-4614-a9d8-ca4a7ab828b4
+2016-06-21T13:38:17.882102000 48773.249156s info: Table 0ab27afd-344c-4614-a9d8-ca4a7ab828b4: Deleted the table.
+2016-06-21T13:38:18.005789000 48773.372883s info: Table fe88c614-4fd8-48da-888d-8c8f26e85478: Starting a new Raft election for term 1.
+2016-06-21T13:38:18.006009000 48773.373103s info: Table fe88c614-4fd8-48da-888d-8c8f26e85478: Added replica on this server.
+2016-06-21T13:38:18.014913000 48773.382007s info: Table fe88c614-4fd8-48da-888d-8c8f26e85478: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:38:33.435260000 48788.802633s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/fe88c614-4fd8-48da-888d-8c8f26e85478
+2016-06-21T13:38:33.435267000 48788.802640s info: Table fe88c614-4fd8-48da-888d-8c8f26e85478: Deleted the table.
+2016-06-21T13:38:33.545083000 48788.912456s info: Table 880022a0-9f38-4bc0-b5eb-5bc1be461b9a: Starting a new Raft election for term 1.
+2016-06-21T13:38:33.545285000 48788.912658s info: Table 880022a0-9f38-4bc0-b5eb-5bc1be461b9a: Added replica on this server.
+2016-06-21T13:38:33.554287000 48788.921660s info: Table 880022a0-9f38-4bc0-b5eb-5bc1be461b9a: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:46:36.000910000 49271.377832s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/880022a0-9f38-4bc0-b5eb-5bc1be461b9a
+2016-06-21T13:46:36.000917000 49271.377839s info: Table 880022a0-9f38-4bc0-b5eb-5bc1be461b9a: Deleted the table.
+2016-06-21T13:46:36.112734000 49271.489656s info: Table 7283a7a5-b25d-4a84-be6d-49a28b67dda9: Starting a new Raft election for term 1.
+2016-06-21T13:46:36.112848000 49271.489770s info: Table 7283a7a5-b25d-4a84-be6d-49a28b67dda9: Added replica on this server.
+2016-06-21T13:46:36.120775000 49271.497697s info: Table 7283a7a5-b25d-4a84-be6d-49a28b67dda9: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:47:42.682830000 49338.061104s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/7283a7a5-b25d-4a84-be6d-49a28b67dda9
+2016-06-21T13:47:42.682837000 49338.061111s info: Table 7283a7a5-b25d-4a84-be6d-49a28b67dda9: Deleted the table.
+2016-06-21T13:47:42.807406000 49338.185681s info: Table 47ef5465-ec7c-418c-a2d6-d299605b68d5: Starting a new Raft election for term 1.
+2016-06-21T13:47:42.807629000 49338.185903s info: Table 47ef5465-ec7c-418c-a2d6-d299605b68d5: Added replica on this server.
+2016-06-21T13:47:42.816087000 49338.194362s info: Table 47ef5465-ec7c-418c-a2d6-d299605b68d5: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:47:57.468409000 49352.846961s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/47ef5465-ec7c-418c-a2d6-d299605b68d5
+2016-06-21T13:47:57.468416000 49352.846968s info: Table 47ef5465-ec7c-418c-a2d6-d299605b68d5: Deleted the table.
+2016-06-21T13:47:57.583903000 49352.962455s info: Table 067a65a4-63ed-4433-a68b-1ab6e7f5cdd5: Starting a new Raft election for term 1.
+2016-06-21T13:47:57.584040000 49352.962592s info: Table 067a65a4-63ed-4433-a68b-1ab6e7f5cdd5: Added replica on this server.
+2016-06-21T13:47:57.592630000 49352.971182s info: Table 067a65a4-63ed-4433-a68b-1ab6e7f5cdd5: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:51:16.479310000 49551.861837s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/067a65a4-63ed-4433-a68b-1ab6e7f5cdd5
+2016-06-21T13:51:16.479317000 49551.861843s info: Table 067a65a4-63ed-4433-a68b-1ab6e7f5cdd5: Deleted the table.
+2016-06-21T13:51:16.596329000 49551.978856s info: Table abae003b-fbc6-4c7b-8130-f912afec6971: Starting a new Raft election for term 1.
+2016-06-21T13:51:16.596423000 49551.978949s info: Table abae003b-fbc6-4c7b-8130-f912afec6971: Added replica on this server.
+2016-06-21T13:51:16.604579000 49551.987107s info: Table abae003b-fbc6-4c7b-8130-f912afec6971: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:51:55.106691000 49590.489973s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/abae003b-fbc6-4c7b-8130-f912afec6971
+2016-06-21T13:51:55.106698000 49590.489980s info: Table abae003b-fbc6-4c7b-8130-f912afec6971: Deleted the table.
+2016-06-21T13:51:55.218899000 49590.602181s info: Table f409747f-39b3-4a0f-8a4f-83a374f8cd6f: Starting a new Raft election for term 1.
+2016-06-21T13:51:55.219108000 49590.602390s info: Table f409747f-39b3-4a0f-8a4f-83a374f8cd6f: Added replica on this server.
+2016-06-21T13:51:55.228130000 49590.611412s info: Table f409747f-39b3-4a0f-8a4f-83a374f8cd6f: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:53:43.136219000 49698.521742s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/f409747f-39b3-4a0f-8a4f-83a374f8cd6f
+2016-06-21T13:53:43.136227000 49698.521749s info: Table f409747f-39b3-4a0f-8a4f-83a374f8cd6f: Deleted the table.
+2016-06-21T13:53:43.253418000 49698.638940s info: Table 103c32e5-4339-4bc0-97e3-882cd909d1e7: Starting a new Raft election for term 1.
+2016-06-21T13:53:43.253611000 49698.639133s info: Table 103c32e5-4339-4bc0-97e3-882cd909d1e7: Added replica on this server.
+2016-06-21T13:53:43.262466000 49698.647988s info: Table 103c32e5-4339-4bc0-97e3-882cd909d1e7: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:53:57.951267000 49713.337081s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/103c32e5-4339-4bc0-97e3-882cd909d1e7
+2016-06-21T13:53:57.951274000 49713.337088s info: Table 103c32e5-4339-4bc0-97e3-882cd909d1e7: Deleted the table.
+2016-06-21T13:53:58.068667000 49713.454481s info: Table aa7ff91b-e7f1-4ff6-b934-91504383ab18: Starting a new Raft election for term 1.
+2016-06-21T13:53:58.068890000 49713.454704s info: Table aa7ff91b-e7f1-4ff6-b934-91504383ab18: Added replica on this server.
+2016-06-21T13:53:58.077523000 49713.463337s info: Table aa7ff91b-e7f1-4ff6-b934-91504383ab18: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T13:58:33.165090000 49988.556617s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/aa7ff91b-e7f1-4ff6-b934-91504383ab18
+2016-06-21T13:58:33.165097000 49988.556623s info: Table aa7ff91b-e7f1-4ff6-b934-91504383ab18: Deleted the table.
+2016-06-21T13:58:33.283751000 49988.675320s info: Table 38a72e01-dcc2-40e6-ad3d-463dd19eb626: Starting a new Raft election for term 1.
+2016-06-21T13:58:33.283913000 49988.675482s info: Table 38a72e01-dcc2-40e6-ad3d-463dd19eb626: Added replica on this server.
+2016-06-21T13:58:33.291450000 49988.683020s info: Table 38a72e01-dcc2-40e6-ad3d-463dd19eb626: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T14:01:46.204753000 50181.600323s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/38a72e01-dcc2-40e6-ad3d-463dd19eb626
+2016-06-21T14:01:46.204761000 50181.600330s info: Table 38a72e01-dcc2-40e6-ad3d-463dd19eb626: Deleted the table.
+2016-06-21T14:01:46.313311000 50181.708880s info: Table 58da83b7-b29a-48b6-a97b-265a4789b093: Starting a new Raft election for term 1.
+2016-06-21T14:01:46.313440000 50181.709009s info: Table 58da83b7-b29a-48b6-a97b-265a4789b093: Added replica on this server.
+2016-06-21T14:01:46.321633000 50181.717202s info: Table 58da83b7-b29a-48b6-a97b-265a4789b093: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T14:38:44.147902000 50357.298983s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/58da83b7-b29a-48b6-a97b-265a4789b093
+2016-06-21T14:38:44.147909000 50357.298990s info: Table 58da83b7-b29a-48b6-a97b-265a4789b093: Deleted the table.
+2016-06-21T14:38:44.258573000 50357.409654s info: Table 155dd0b4-485c-4c5f-851d-9be9fa58acfa: Starting a new Raft election for term 1.
+2016-06-21T14:38:44.258764000 50357.409845s info: Table 155dd0b4-485c-4c5f-851d-9be9fa58acfa: Added replica on this server.
+2016-06-21T14:38:44.266593000 50357.417674s info: Table 155dd0b4-485c-4c5f-851d-9be9fa58acfa: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T14:39:04.306143000 50377.457641s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/155dd0b4-485c-4c5f-851d-9be9fa58acfa
+2016-06-21T14:39:04.306150000 50377.457648s info: Table 155dd0b4-485c-4c5f-851d-9be9fa58acfa: Deleted the table.
+2016-06-21T14:39:04.418882000 50377.570381s info: Table 3c95af13-78ea-4ee1-b978-0aa033c56998: Starting a new Raft election for term 1.
+2016-06-21T14:39:04.419005000 50377.570503s info: Table 3c95af13-78ea-4ee1-b978-0aa033c56998: Added replica on this server.
+2016-06-21T14:39:04.427537000 50377.579035s info: Table 3c95af13-78ea-4ee1-b978-0aa033c56998: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T14:39:18.119583000 50391.271372s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/3c95af13-78ea-4ee1-b978-0aa033c56998
+2016-06-21T14:39:18.119590000 50391.271379s info: Table 3c95af13-78ea-4ee1-b978-0aa033c56998: Deleted the table.
+2016-06-21T14:39:18.244561000 50391.396350s info: Table 0acec172-1743-43a3-8ca1-42cac9d3d24a: Starting a new Raft election for term 1.
+2016-06-21T14:39:18.244753000 50391.396542s info: Table 0acec172-1743-43a3-8ca1-42cac9d3d24a: Added replica on this server.
+2016-06-21T14:39:18.254109000 50391.405898s info: Table 0acec172-1743-43a3-8ca1-42cac9d3d24a: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T14:40:17.339643000 50450.492680s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/0acec172-1743-43a3-8ca1-42cac9d3d24a
+2016-06-21T14:40:17.339650000 50450.492686s info: Table 0acec172-1743-43a3-8ca1-42cac9d3d24a: Deleted the table.
+2016-06-21T14:40:17.449452000 50450.602489s info: Table a4cad69f-35dc-4ef4-9ba8-1c7288b0f4c3: Starting a new Raft election for term 1.
+2016-06-21T14:40:17.449549000 50450.602586s info: Table a4cad69f-35dc-4ef4-9ba8-1c7288b0f4c3: Added replica on this server.
+2016-06-21T14:40:17.458433000 50450.611470s info: Table a4cad69f-35dc-4ef4-9ba8-1c7288b0f4c3: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T14:40:48.140826000 50481.294487s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/a4cad69f-35dc-4ef4-9ba8-1c7288b0f4c3
+2016-06-21T14:40:48.140833000 50481.294494s info: Table a4cad69f-35dc-4ef4-9ba8-1c7288b0f4c3: Deleted the table.
+2016-06-21T14:40:48.254823000 50481.408484s info: Table c412a4ec-2852-4d69-9e77-afae5d90f257: Starting a new Raft election for term 1.
+2016-06-21T14:40:48.255159000 50481.408820s info: Table c412a4ec-2852-4d69-9e77-afae5d90f257: Added replica on this server.
+2016-06-21T14:40:48.277593000 50481.431254s info: Table c412a4ec-2852-4d69-9e77-afae5d90f257: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T14:40:56.137590000 50489.291419s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/c412a4ec-2852-4d69-9e77-afae5d90f257
+2016-06-21T14:40:56.137599000 50489.291427s info: Table c412a4ec-2852-4d69-9e77-afae5d90f257: Deleted the table.
+2016-06-21T14:40:56.258808000 50489.412636s info: Table 8f87639a-4c96-482d-bf01-3b10e0ef639b: Starting a new Raft election for term 1.
+2016-06-21T14:40:56.259004000 50489.412832s info: Table 8f87639a-4c96-482d-bf01-3b10e0ef639b: Added replica on this server.
+2016-06-21T14:40:56.268596000 50489.422424s info: Table 8f87639a-4c96-482d-bf01-3b10e0ef639b: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T14:43:31.764159000 50644.921231s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/8f87639a-4c96-482d-bf01-3b10e0ef639b
+2016-06-21T14:43:31.764166000 50644.921238s info: Table 8f87639a-4c96-482d-bf01-3b10e0ef639b: Deleted the table.
+2016-06-21T14:43:31.870148000 50645.027220s info: Table 728cdf04-d604-4d7f-b584-83f01e554471: Starting a new Raft election for term 1.
+2016-06-21T14:43:31.870340000 50645.027412s info: Table 728cdf04-d604-4d7f-b584-83f01e554471: Added replica on this server.
+2016-06-21T14:43:31.878600000 50645.035672s info: Table 728cdf04-d604-4d7f-b584-83f01e554471: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:20:53.404867000 52886.608157s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/728cdf04-d604-4d7f-b584-83f01e554471
+2016-06-21T15:20:53.404876000 52886.608165s info: Table 728cdf04-d604-4d7f-b584-83f01e554471: Deleted the table.
+2016-06-21T15:20:53.517442000 52886.720731s info: Table f4412cf4-1200-4e40-b301-858db18237c1: Starting a new Raft election for term 1.
+2016-06-21T15:20:53.517637000 52886.720926s info: Table f4412cf4-1200-4e40-b301-858db18237c1: Added replica on this server.
+2016-06-21T15:20:53.525353000 52886.728642s info: Table f4412cf4-1200-4e40-b301-858db18237c1: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:21:20.728754000 52913.932621s notice: Server got SIGINT from pid 23966, uid 501; shutting down...
+2016-06-21T15:21:20.729096000 52913.932963s notice: Shutting down client connections...
+2016-06-21T15:21:20.729248000 52913.933115s notice: All client connections closed.
+2016-06-21T15:21:20.729255000 52913.933122s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-06-21T15:21:20.735903000 52913.939771s notice: Storage engine shut down.
+2016-06-21T15:21:23.666032000 0.321829s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-06-21T15:21:23.669949000 0.325743s notice: Running on Darwin 15.5.0 x86_64
+2016-06-21T15:21:23.669985000 0.325778s notice: Loading data from directory /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data
+2016-06-21T15:21:23.687126000 0.342919s info: Automatically using cache size of 357 MB
+2016-06-21T15:21:23.688038000 0.343831s notice: Listening for intracluster connections on port 29015
+2016-06-21T15:21:23.710652000 0.366445s notice: Listening for client driver connections on port 28015
+2016-06-21T15:21:23.710834000 0.366628s notice: Listening for administrative HTTP connections on port 8080
+2016-06-21T15:21:23.710836000 0.366629s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-21T15:21:23.710838000 0.366631s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-21T15:21:23.710839000 0.366632s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-21T15:21:23.710846000 0.366639s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-21T15:21:23.710848000 0.366641s notice: Server ready, "Terrences_MacBook_Pro_local_lea" 661f4c24-e833-4341-8ca3-4443b0f3a5e4
+2016-06-21T15:21:25.003205000 1.659040s info: Table f4412cf4-1200-4e40-b301-858db18237c1: Starting a new Raft election for term 2.
+2016-06-21T15:21:25.013850000 1.669685s info: Table f4412cf4-1200-4e40-b301-858db18237c1: This server is Raft leader for term 2. Latest log index is 3.
+2016-06-21T15:21:43.267876000 19.924082s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/f4412cf4-1200-4e40-b301-858db18237c1
+2016-06-21T15:21:43.267893000 19.924098s info: Table f4412cf4-1200-4e40-b301-858db18237c1: Deleted the table.
+2016-06-21T15:21:43.388504000 20.044710s info: Table 71b19850-f5b1-4d17-8443-efabae4c421d: Starting a new Raft election for term 1.
+2016-06-21T15:21:43.388702000 20.044908s info: Table 71b19850-f5b1-4d17-8443-efabae4c421d: Added replica on this server.
+2016-06-21T15:21:43.396686000 20.052891s info: Table 71b19850-f5b1-4d17-8443-efabae4c421d: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:21:58.481070000 35.137605s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/71b19850-f5b1-4d17-8443-efabae4c421d
+2016-06-21T15:21:58.481078000 35.137613s info: Table 71b19850-f5b1-4d17-8443-efabae4c421d: Deleted the table.
+2016-06-21T15:21:58.588308000 35.244843s info: Table 2fcc861a-b2b1-4e61-b4d5-eefddbb2d12a: Starting a new Raft election for term 1.
+2016-06-21T15:21:58.588507000 35.245043s info: Table 2fcc861a-b2b1-4e61-b4d5-eefddbb2d12a: Added replica on this server.
+2016-06-21T15:21:58.596684000 35.253219s info: Table 2fcc861a-b2b1-4e61-b4d5-eefddbb2d12a: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:22:50.641531000 87.299139s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/2fcc861a-b2b1-4e61-b4d5-eefddbb2d12a
+2016-06-21T15:22:50.641539000 87.299146s info: Table 2fcc861a-b2b1-4e61-b4d5-eefddbb2d12a: Deleted the table.
+2016-06-21T15:22:50.757229000 87.414837s info: Table 998112e1-f790-4481-8e81-cdd956636183: Starting a new Raft election for term 1.
+2016-06-21T15:22:50.757350000 87.414958s info: Table 998112e1-f790-4481-8e81-cdd956636183: Added replica on this server.
+2016-06-21T15:22:50.765940000 87.423548s info: Table 998112e1-f790-4481-8e81-cdd956636183: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:28:38.016875000 434.681612s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/998112e1-f790-4481-8e81-cdd956636183
+2016-06-21T15:28:38.016884000 434.681620s info: Table 998112e1-f790-4481-8e81-cdd956636183: Deleted the table.
+2016-06-21T15:28:38.213636000 434.878372s info: Table c909ecc8-4d45-409d-ac5f-648c74a63813: Starting a new Raft election for term 1.
+2016-06-21T15:28:38.213746000 434.878483s info: Table c909ecc8-4d45-409d-ac5f-648c74a63813: Added replica on this server.
+2016-06-21T15:28:38.227026000 434.891763s info: Table c909ecc8-4d45-409d-ac5f-648c74a63813: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:31:05.856478000 582.524261s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/c909ecc8-4d45-409d-ac5f-648c74a63813
+2016-06-21T15:31:05.856485000 582.524268s info: Table c909ecc8-4d45-409d-ac5f-648c74a63813: Deleted the table.
+2016-06-21T15:31:05.973115000 582.640898s info: Table c202838e-e1dc-47fc-a82e-57e0f0d7bc20: Starting a new Raft election for term 1.
+2016-06-21T15:31:05.973313000 582.641097s info: Table c202838e-e1dc-47fc-a82e-57e0f0d7bc20: Added replica on this server.
+2016-06-21T15:31:05.981862000 582.649645s info: Table c202838e-e1dc-47fc-a82e-57e0f0d7bc20: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:31:21.297979000 597.966092s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/c202838e-e1dc-47fc-a82e-57e0f0d7bc20
+2016-06-21T15:31:21.297987000 597.966100s info: Table c202838e-e1dc-47fc-a82e-57e0f0d7bc20: Deleted the table.
+2016-06-21T15:31:21.414301000 598.082415s info: Table dfdedf8c-176c-403a-bb99-54a98b1f94e1: Starting a new Raft election for term 1.
+2016-06-21T15:31:21.414470000 598.082583s info: Table dfdedf8c-176c-403a-bb99-54a98b1f94e1: Added replica on this server.
+2016-06-21T15:31:21.423539000 598.091653s info: Table dfdedf8c-176c-403a-bb99-54a98b1f94e1: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:32:34.360592000 671.030187s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/dfdedf8c-176c-403a-bb99-54a98b1f94e1
+2016-06-21T15:32:34.360599000 671.030193s info: Table dfdedf8c-176c-403a-bb99-54a98b1f94e1: Deleted the table.
+2016-06-21T15:32:34.480369000 671.149963s info: Table f6d4b113-cc9d-494b-a9ea-9063c5fcde81: Starting a new Raft election for term 1.
+2016-06-21T15:32:34.480517000 671.150111s info: Table f6d4b113-cc9d-494b-a9ea-9063c5fcde81: Added replica on this server.
+2016-06-21T15:32:34.488030000 671.157624s info: Table f6d4b113-cc9d-494b-a9ea-9063c5fcde81: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:32:41.688952000 678.358711s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/f6d4b113-cc9d-494b-a9ea-9063c5fcde81
+2016-06-21T15:32:41.688959000 678.358718s info: Table f6d4b113-cc9d-494b-a9ea-9063c5fcde81: Deleted the table.
+2016-06-21T15:32:41.802015000 678.471775s info: Table 99b5f79d-d2b2-4631-bc86-8008cf4b52b2: Starting a new Raft election for term 1.
+2016-06-21T15:32:41.802141000 678.471901s info: Table 99b5f79d-d2b2-4631-bc86-8008cf4b52b2: Added replica on this server.
+2016-06-21T15:32:41.810216000 678.479976s info: Table 99b5f79d-d2b2-4631-bc86-8008cf4b52b2: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:32:57.192822000 693.862910s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/99b5f79d-d2b2-4631-bc86-8008cf4b52b2
+2016-06-21T15:32:57.192830000 693.862918s info: Table 99b5f79d-d2b2-4631-bc86-8008cf4b52b2: Deleted the table.
+2016-06-21T15:32:57.381036000 694.051125s info: Table a0766081-d9d6-4cfa-a42c-f5f90eae30d9: Starting a new Raft election for term 1.
+2016-06-21T15:32:57.381284000 694.051373s info: Table a0766081-d9d6-4cfa-a42c-f5f90eae30d9: Added replica on this server.
+2016-06-21T15:32:57.396452000 694.066541s info: Table a0766081-d9d6-4cfa-a42c-f5f90eae30d9: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:35:06.207196000 822.879918s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/a0766081-d9d6-4cfa-a42c-f5f90eae30d9
+2016-06-21T15:35:06.207203000 822.879925s info: Table a0766081-d9d6-4cfa-a42c-f5f90eae30d9: Deleted the table.
+2016-06-21T15:35:06.325507000 822.998229s info: Table 0867af16-e083-4ddf-830a-413d64e2222a: Starting a new Raft election for term 1.
+2016-06-21T15:35:06.325690000 822.998411s info: Table 0867af16-e083-4ddf-830a-413d64e2222a: Added replica on this server.
+2016-06-21T15:35:06.333539000 823.006260s info: Table 0867af16-e083-4ddf-830a-413d64e2222a: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:36:06.955899000 883.629854s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/0867af16-e083-4ddf-830a-413d64e2222a
+2016-06-21T15:36:06.955906000 883.629861s info: Table 0867af16-e083-4ddf-830a-413d64e2222a: Deleted the table.
+2016-06-21T15:36:07.091306000 883.765262s info: Table 562a200e-5443-4794-89d7-1686149c1612: Starting a new Raft election for term 1.
+2016-06-21T15:36:07.091485000 883.765440s info: Table 562a200e-5443-4794-89d7-1686149c1612: Added replica on this server.
+2016-06-21T15:36:07.101071000 883.775027s info: Table 562a200e-5443-4794-89d7-1686149c1612: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:36:22.819355000 899.493639s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/562a200e-5443-4794-89d7-1686149c1612
+2016-06-21T15:36:22.819363000 899.493646s info: Table 562a200e-5443-4794-89d7-1686149c1612: Deleted the table.
+2016-06-21T15:36:22.940279000 899.614563s info: Table b05c4357-8a02-440d-b28c-bed94c6e8b2b: Starting a new Raft election for term 1.
+2016-06-21T15:36:22.940505000 899.614788s info: Table b05c4357-8a02-440d-b28c-bed94c6e8b2b: Added replica on this server.
+2016-06-21T15:36:22.949439000 899.623723s info: Table b05c4357-8a02-440d-b28c-bed94c6e8b2b: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:37:27.445941000 964.121541s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/b05c4357-8a02-440d-b28c-bed94c6e8b2b
+2016-06-21T15:37:27.445949000 964.121548s info: Table b05c4357-8a02-440d-b28c-bed94c6e8b2b: Deleted the table.
+2016-06-21T15:37:27.562480000 964.238079s info: Table 0db9a82a-a3ee-45b6-abd1-ca8d8fe08b75: Starting a new Raft election for term 1.
+2016-06-21T15:37:27.562721000 964.238320s info: Table 0db9a82a-a3ee-45b6-abd1-ca8d8fe08b75: Added replica on this server.
+2016-06-21T15:37:27.571396000 964.246996s info: Table 0db9a82a-a3ee-45b6-abd1-ca8d8fe08b75: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:37:31.306847000 967.982529s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/0db9a82a-a3ee-45b6-abd1-ca8d8fe08b75
+2016-06-21T15:37:31.306855000 967.982536s info: Table 0db9a82a-a3ee-45b6-abd1-ca8d8fe08b75: Deleted the table.
+2016-06-21T15:37:31.428395000 968.104076s info: Table 78656055-2e73-49a2-a61a-cf5b435a47a8: Starting a new Raft election for term 1.
+2016-06-21T15:37:31.428585000 968.104266s info: Table 78656055-2e73-49a2-a61a-cf5b435a47a8: Added replica on this server.
+2016-06-21T15:37:31.436903000 968.112584s info: Table 78656055-2e73-49a2-a61a-cf5b435a47a8: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:37:47.394404000 984.070414s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/78656055-2e73-49a2-a61a-cf5b435a47a8
+2016-06-21T15:37:47.394411000 984.070421s info: Table 78656055-2e73-49a2-a61a-cf5b435a47a8: Deleted the table.
+2016-06-21T15:37:47.586742000 984.262752s info: Table 5ea8d2f3-b274-4d2a-accc-14a24addf3e3: Starting a new Raft election for term 1.
+2016-06-21T15:37:47.586945000 984.262955s info: Table 5ea8d2f3-b274-4d2a-accc-14a24addf3e3: Added replica on this server.
+2016-06-21T15:37:47.600867000 984.276878s info: Table 5ea8d2f3-b274-4d2a-accc-14a24addf3e3: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:39:30.582457000 1087.260605s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/5ea8d2f3-b274-4d2a-accc-14a24addf3e3
+2016-06-21T15:39:30.582465000 1087.260612s info: Table 5ea8d2f3-b274-4d2a-accc-14a24addf3e3: Deleted the table.
+2016-06-21T15:39:30.701584000 1087.379732s info: Table ebaffe15-c208-4dd8-b538-e5e71ab1c9db: Starting a new Raft election for term 1.
+2016-06-21T15:39:30.701780000 1087.379927s info: Table ebaffe15-c208-4dd8-b538-e5e71ab1c9db: Added replica on this server.
+2016-06-21T15:39:30.709858000 1087.388005s info: Table ebaffe15-c208-4dd8-b538-e5e71ab1c9db: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:39:46.745364000 1103.423841s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/ebaffe15-c208-4dd8-b538-e5e71ab1c9db
+2016-06-21T15:39:46.745373000 1103.423849s info: Table ebaffe15-c208-4dd8-b538-e5e71ab1c9db: Deleted the table.
+2016-06-21T15:39:46.876011000 1103.554487s info: Table 0529671c-2147-4ee6-a618-3509b4c2afc3: Starting a new Raft election for term 1.
+2016-06-21T15:39:46.876155000 1103.554632s info: Table 0529671c-2147-4ee6-a618-3509b4c2afc3: Added replica on this server.
+2016-06-21T15:39:46.885573000 1103.564049s info: Table 0529671c-2147-4ee6-a618-3509b4c2afc3: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:42:06.533801000 1243.215154s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/0529671c-2147-4ee6-a618-3509b4c2afc3
+2016-06-21T15:42:06.533810000 1243.215162s info: Table 0529671c-2147-4ee6-a618-3509b4c2afc3: Deleted the table.
+2016-06-21T15:42:06.668812000 1243.350165s info: Table bbcf63f3-efd4-4f56-afbd-8ec0d8942c60: Starting a new Raft election for term 1.
+2016-06-21T15:42:06.669005000 1243.350358s info: Table bbcf63f3-efd4-4f56-afbd-8ec0d8942c60: Added replica on this server.
+2016-06-21T15:42:06.678469000 1243.359822s info: Table bbcf63f3-efd4-4f56-afbd-8ec0d8942c60: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:42:22.571955000 1259.253634s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/bbcf63f3-efd4-4f56-afbd-8ec0d8942c60
+2016-06-21T15:42:22.571965000 1259.253644s info: Table bbcf63f3-efd4-4f56-afbd-8ec0d8942c60: Deleted the table.
+2016-06-21T15:42:22.694737000 1259.376417s info: Table ab59533b-9728-4c01-a3bb-966bef040e08: Starting a new Raft election for term 1.
+2016-06-21T15:42:22.694938000 1259.376618s info: Table ab59533b-9728-4c01-a3bb-966bef040e08: Added replica on this server.
+2016-06-21T15:42:22.704267000 1259.385948s info: Table ab59533b-9728-4c01-a3bb-966bef040e08: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:48:10.309690000 1606.998472s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/ab59533b-9728-4c01-a3bb-966bef040e08
+2016-06-21T15:48:10.309698000 1606.998479s info: Table ab59533b-9728-4c01-a3bb-966bef040e08: Deleted the table.
+2016-06-21T15:48:10.483743000 1607.172525s info: Table 80872b12-8c79-40ff-aa5d-4e81ed1248ea: Starting a new Raft election for term 1.
+2016-06-21T15:48:10.483851000 1607.172633s info: Table 80872b12-8c79-40ff-aa5d-4e81ed1248ea: Added replica on this server.
+2016-06-21T15:48:10.496795000 1607.185576s info: Table 80872b12-8c79-40ff-aa5d-4e81ed1248ea: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:49:57.794417000 1714.485372s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/80872b12-8c79-40ff-aa5d-4e81ed1248ea
+2016-06-21T15:49:57.794423000 1714.485379s info: Table 80872b12-8c79-40ff-aa5d-4e81ed1248ea: Deleted the table.
+2016-06-21T15:49:57.920458000 1714.611455s info: Table 9041d602-4188-4004-bb7b-65cb5c3fb68b: Starting a new Raft election for term 1.
+2016-06-21T15:49:57.920622000 1714.611618s info: Table 9041d602-4188-4004-bb7b-65cb5c3fb68b: Added replica on this server.
+2016-06-21T15:49:57.929100000 1714.620097s info: Table 9041d602-4188-4004-bb7b-65cb5c3fb68b: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:50:13.617065000 1730.308349s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/9041d602-4188-4004-bb7b-65cb5c3fb68b
+2016-06-21T15:50:13.617075000 1730.308359s info: Table 9041d602-4188-4004-bb7b-65cb5c3fb68b: Deleted the table.
+2016-06-21T15:50:13.740363000 1730.431646s info: Table d0acf148-1fba-4932-9392-8874484e9ec0: Starting a new Raft election for term 1.
+2016-06-21T15:50:13.740562000 1730.431846s info: Table d0acf148-1fba-4932-9392-8874484e9ec0: Added replica on this server.
+2016-06-21T15:50:13.749155000 1730.440438s info: Table d0acf148-1fba-4932-9392-8874484e9ec0: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:57:19.152697000 2155.852668s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/d0acf148-1fba-4932-9392-8874484e9ec0
+2016-06-21T15:57:19.152704000 2155.852674s info: Table d0acf148-1fba-4932-9392-8874484e9ec0: Deleted the table.
+2016-06-21T15:57:19.274707000 2155.974678s info: Table 3e6ef78f-36b5-4aac-b680-5cc2f0e23f92: Starting a new Raft election for term 1.
+2016-06-21T15:57:19.274914000 2155.974884s info: Table 3e6ef78f-36b5-4aac-b680-5cc2f0e23f92: Added replica on this server.
+2016-06-21T15:57:19.283021000 2155.982992s info: Table 3e6ef78f-36b5-4aac-b680-5cc2f0e23f92: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T15:57:34.943825000 2171.644123s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/3e6ef78f-36b5-4aac-b680-5cc2f0e23f92
+2016-06-21T15:57:34.943833000 2171.644130s info: Table 3e6ef78f-36b5-4aac-b680-5cc2f0e23f92: Deleted the table.
+2016-06-21T15:57:35.061522000 2171.761820s info: Table 8846beed-bf44-465b-9c99-47795aca1d84: Starting a new Raft election for term 1.
+2016-06-21T15:57:35.061717000 2171.762014s info: Table 8846beed-bf44-465b-9c99-47795aca1d84: Added replica on this server.
+2016-06-21T15:57:35.069810000 2171.770107s info: Table 8846beed-bf44-465b-9c99-47795aca1d84: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T16:26:26.757466000 3903.493084s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/8846beed-bf44-465b-9c99-47795aca1d84
+2016-06-21T16:26:26.757474000 3903.493091s info: Table 8846beed-bf44-465b-9c99-47795aca1d84: Deleted the table.
+2016-06-21T16:26:26.872644000 3903.608262s info: Table d2b25cfb-fdbb-404c-b662-2c6795ccb9ee: Starting a new Raft election for term 1.
+2016-06-21T16:26:26.872767000 3903.608385s info: Table d2b25cfb-fdbb-404c-b662-2c6795ccb9ee: Added replica on this server.
+2016-06-21T16:26:26.881342000 3903.616959s info: Table d2b25cfb-fdbb-404c-b662-2c6795ccb9ee: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T16:43:41.987706000 4938.744301s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/d2b25cfb-fdbb-404c-b662-2c6795ccb9ee
+2016-06-21T16:43:41.987713000 4938.744309s info: Table d2b25cfb-fdbb-404c-b662-2c6795ccb9ee: Deleted the table.
+2016-06-21T16:43:42.099056000 4938.855652s info: Table cb9ec784-47cc-4db7-96c8-05ecb4032962: Starting a new Raft election for term 1.
+2016-06-21T16:43:42.099204000 4938.855800s info: Table cb9ec784-47cc-4db7-96c8-05ecb4032962: Added replica on this server.
+2016-06-21T16:43:42.107676000 4938.864271s info: Table cb9ec784-47cc-4db7-96c8-05ecb4032962: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:01:46.178917000 6023.139571s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/cb9ec784-47cc-4db7-96c8-05ecb4032962
+2016-06-21T17:01:46.178925000 6023.139579s info: Table cb9ec784-47cc-4db7-96c8-05ecb4032962: Deleted the table.
+2016-06-21T17:01:46.290605000 6023.251259s info: Table 22b2219f-4128-402b-858c-87767427027c: Starting a new Raft election for term 1.
+2016-06-21T17:01:46.290755000 6023.251408s info: Table 22b2219f-4128-402b-858c-87767427027c: Added replica on this server.
+2016-06-21T17:01:46.298564000 6023.259217s info: Table 22b2219f-4128-402b-858c-87767427027c: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:02:03.129101000 6040.090084s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/22b2219f-4128-402b-858c-87767427027c
+2016-06-21T17:02:03.129109000 6040.090091s info: Table 22b2219f-4128-402b-858c-87767427027c: Deleted the table.
+2016-06-21T17:02:03.300133000 6040.261115s info: Table 55091e0b-bed9-468c-8045-5a085e6358a8: Starting a new Raft election for term 1.
+2016-06-21T17:02:03.300228000 6040.261211s info: Table 55091e0b-bed9-468c-8045-5a085e6358a8: Added replica on this server.
+2016-06-21T17:02:03.313851000 6040.274833s info: Table 55091e0b-bed9-468c-8045-5a085e6358a8: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:02:44.702342000 6081.664057s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/55091e0b-bed9-468c-8045-5a085e6358a8
+2016-06-21T17:02:44.702350000 6081.664065s info: Table 55091e0b-bed9-468c-8045-5a085e6358a8: Deleted the table.
+2016-06-21T17:02:44.819907000 6081.781622s info: Table 59f7eef4-d906-4afb-83ee-fd4b2d49b934: Starting a new Raft election for term 1.
+2016-06-21T17:02:44.820061000 6081.781776s info: Table 59f7eef4-d906-4afb-83ee-fd4b2d49b934: Added replica on this server.
+2016-06-21T17:02:44.827770000 6081.789484s info: Table 59f7eef4-d906-4afb-83ee-fd4b2d49b934: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:04:25.193002000 6182.156580s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/59f7eef4-d906-4afb-83ee-fd4b2d49b934
+2016-06-21T17:04:25.193010000 6182.156588s info: Table 59f7eef4-d906-4afb-83ee-fd4b2d49b934: Deleted the table.
+2016-06-21T17:04:25.306301000 6182.269879s info: Table e9076c69-b997-46c3-8dbc-4b671c30962c: Starting a new Raft election for term 1.
+2016-06-21T17:04:25.306484000 6182.270062s info: Table e9076c69-b997-46c3-8dbc-4b671c30962c: Added replica on this server.
+2016-06-21T17:04:25.314014000 6182.277593s info: Table e9076c69-b997-46c3-8dbc-4b671c30962c: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:05:28.424425000 6245.389136s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/e9076c69-b997-46c3-8dbc-4b671c30962c
+2016-06-21T17:05:28.424432000 6245.389143s info: Table e9076c69-b997-46c3-8dbc-4b671c30962c: Deleted the table.
+2016-06-21T17:05:28.533068000 6245.497779s info: Table d881d198-88d5-4ad5-98bf-2ce96c1923d2: Starting a new Raft election for term 1.
+2016-06-21T17:05:28.533270000 6245.497981s info: Table d881d198-88d5-4ad5-98bf-2ce96c1923d2: Added replica on this server.
+2016-06-21T17:05:28.541929000 6245.506640s info: Table d881d198-88d5-4ad5-98bf-2ce96c1923d2: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:08:32.624087000 6429.592163s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/d881d198-88d5-4ad5-98bf-2ce96c1923d2
+2016-06-21T17:08:32.624095000 6429.592170s info: Table d881d198-88d5-4ad5-98bf-2ce96c1923d2: Deleted the table.
+2016-06-21T17:08:32.760897000 6429.729009s info: Table 4881e2d8-bc8a-48c8-8869-b2f1bbd3a116: Starting a new Raft election for term 1.
+2016-06-21T17:08:32.761046000 6429.729157s info: Table 4881e2d8-bc8a-48c8-8869-b2f1bbd3a116: Added replica on this server.
+2016-06-21T17:08:32.772143000 6429.740255s info: Table 4881e2d8-bc8a-48c8-8869-b2f1bbd3a116: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:12:39.655199000 6676.627808s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/4881e2d8-bc8a-48c8-8869-b2f1bbd3a116
+2016-06-21T17:12:39.655207000 6676.627815s info: Table 4881e2d8-bc8a-48c8-8869-b2f1bbd3a116: Deleted the table.
+2016-06-21T17:12:39.824870000 6676.797479s info: Table db5050d6-7d6a-44f1-aaa4-24d2f435c986: Starting a new Raft election for term 1.
+2016-06-21T17:12:39.825231000 6676.797839s info: Table db5050d6-7d6a-44f1-aaa4-24d2f435c986: Added replica on this server.
+2016-06-21T17:12:39.839271000 6676.811880s info: Table db5050d6-7d6a-44f1-aaa4-24d2f435c986: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:15:48.471650000 6865.447731s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/db5050d6-7d6a-44f1-aaa4-24d2f435c986
+2016-06-21T17:15:48.471657000 6865.447739s info: Table db5050d6-7d6a-44f1-aaa4-24d2f435c986: Deleted the table.
+2016-06-21T17:15:48.584853000 6865.560934s info: Table b0b0a091-df35-4b56-9ad3-4f47f2f210e9: Starting a new Raft election for term 1.
+2016-06-21T17:15:48.584956000 6865.561037s info: Table b0b0a091-df35-4b56-9ad3-4f47f2f210e9: Added replica on this server.
+2016-06-21T17:15:48.592116000 6865.568197s info: Table b0b0a091-df35-4b56-9ad3-4f47f2f210e9: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:16:44.741089000 6921.718194s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/b0b0a091-df35-4b56-9ad3-4f47f2f210e9
+2016-06-21T17:16:44.741096000 6921.718202s info: Table b0b0a091-df35-4b56-9ad3-4f47f2f210e9: Deleted the table.
+2016-06-21T17:16:44.856598000 6921.833704s info: Table 8388757c-ec13-46f7-a92b-2d1ee567c4ae: Starting a new Raft election for term 1.
+2016-06-21T17:16:44.856731000 6921.833836s info: Table 8388757c-ec13-46f7-a92b-2d1ee567c4ae: Added replica on this server.
+2016-06-21T17:16:44.864358000 6921.841463s info: Table 8388757c-ec13-46f7-a92b-2d1ee567c4ae: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:17:00.590607000 6937.568004s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/8388757c-ec13-46f7-a92b-2d1ee567c4ae
+2016-06-21T17:17:00.590614000 6937.568011s info: Table 8388757c-ec13-46f7-a92b-2d1ee567c4ae: Deleted the table.
+2016-06-21T17:17:00.718009000 6937.695407s info: Table 3292d961-41c0-4a2d-9893-da6882439b61: Starting a new Raft election for term 1.
+2016-06-21T17:17:00.718143000 6937.695541s info: Table 3292d961-41c0-4a2d-9893-da6882439b61: Added replica on this server.
+2016-06-21T17:17:00.727456000 6937.704853s info: Table 3292d961-41c0-4a2d-9893-da6882439b61: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:34:21.375416000 7978.371823s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/3292d961-41c0-4a2d-9893-da6882439b61
+2016-06-21T17:34:21.375425000 7978.371833s info: Table 3292d961-41c0-4a2d-9893-da6882439b61: Deleted the table.
+2016-06-21T17:34:21.518677000 7978.515084s info: Table 20868f5b-7ff0-4016-911e-f6d4d6384738: Starting a new Raft election for term 1.
+2016-06-21T17:34:21.518788000 7978.515195s info: Table 20868f5b-7ff0-4016-911e-f6d4d6384738: Added replica on this server.
+2016-06-21T17:34:21.531716000 7978.528123s info: Table 20868f5b-7ff0-4016-911e-f6d4d6384738: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:35:29.604533000 8046.602183s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/20868f5b-7ff0-4016-911e-f6d4d6384738
+2016-06-21T17:35:29.604541000 8046.602191s info: Table 20868f5b-7ff0-4016-911e-f6d4d6384738: Deleted the table.
+2016-06-21T17:35:29.715984000 8046.713634s info: Table d4f9a0e5-ebee-4081-b6b9-fc2fc76bbc4b: Starting a new Raft election for term 1.
+2016-06-21T17:35:29.716146000 8046.713797s info: Table d4f9a0e5-ebee-4081-b6b9-fc2fc76bbc4b: Added replica on this server.
+2016-06-21T17:35:29.723825000 8046.721475s info: Table d4f9a0e5-ebee-4081-b6b9-fc2fc76bbc4b: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-21T17:36:30.556167000 8107.554952s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/d4f9a0e5-ebee-4081-b6b9-fc2fc76bbc4b
+2016-06-21T17:36:30.556174000 8107.554958s info: Table d4f9a0e5-ebee-4081-b6b9-fc2fc76bbc4b: Deleted the table.
+2016-06-21T17:36:30.668526000 8107.667310s info: Table 60015da5-314a-47bf-bc88-84a7774ea82c: Starting a new Raft election for term 1.
+2016-06-21T17:36:30.668652000 8107.667436s info: Table 60015da5-314a-47bf-bc88-84a7774ea82c: Added replica on this server.
+2016-06-21T17:36:30.676951000 8107.675736s info: Table 60015da5-314a-47bf-bc88-84a7774ea82c: This server is Raft leader for term 1. Latest log index is 0.

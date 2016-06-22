@@ -2,11 +2,22 @@
 
 from demo_backend.extensions import socketio
 from flask_socketio import emit
-from flask import session
+from demo_backend.models import db
+import rethinkdb as r
+from demo_backend.settings import ProdConfig
 
 
-@socketio.on('my event', namespace='/test')
+@socketio.on('my event')
 def test_message(message):
-    session['receive_count'] = session.get('receive_count', 0) + 1
-    emit('my response',
-         {'data': message['data'], 'count': session['receive_count']})
+    print 'my event'
+    emit('my response', 'yyy')
+
+
+@socketio.on('search county')
+def handle_search(county):
+    conn = r.connect(ProdConfig.DB_HOST, ProdConfig.DB_PORT)
+    cursor = db.table('township_village').pluck(['county', 'township', 'village', 'coordinates']).run(conn)
+    for item in cursor:
+        emit('search response', item)
+
+    conn.close()

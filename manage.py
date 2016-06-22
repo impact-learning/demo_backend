@@ -27,11 +27,11 @@ app = create_app('demo_backend.settings.%sConfig' % env.capitalize())
 manager = Manager(app)
 
 
-@manager.shell
+@manager.command
 def runserver():
     """ run the server for dev
     """
-    db_setup()  # Check DB and Tables were pre created
+    # db_setup()  # Check DB and Tables were pre created
     socketio.run(app, debug=True)
 
     IOLoop.instance().start()
@@ -46,6 +46,13 @@ def make_shell_context():
     return dict(app=app, db=db)
 
 
+# @manager.command
+# def init_data():
+#     """Initialize database"""
+#     db_setup()
+
+
+# manager.add_command("init_db", init_data())
 manager.add_command('server', runserver())
 manager.add_command('shell', make_shell_context())
 manager.add_command("urls", ShowUrls())

@@ -6,3 +6,4 @@ __email__ = 'terrence@shanzhai.city'
 __version__ = '0.1.0'
 
 from demo_backend.app import create_app
+import demo_backend.api
