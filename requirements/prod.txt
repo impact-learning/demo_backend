@@ -6,6 +6,7 @@ Flask-DebugToolbar
 # comm
 flask-socketio
 eventlet
+tornado
 
 # DB
 rethinkdb
@@ -14,6 +15,8 @@ https://storage.googleapis.com/tensorflow/mac/tensorflow-0.9.0rc0-py2-none-any.w
 numpy
 pandas
 sklearn
+geojson
+scipy
 
 # Other
 itsdangerous
