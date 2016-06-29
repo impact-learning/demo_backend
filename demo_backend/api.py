@@ -5,7 +5,7 @@ from flask_socketio import emit
 from demo_backend.models import db
 import rethinkdb as r
 from demo_backend.settings import ProdConfig
-from demo_backend.modeling import get_data
+from demo_backend.modeling import get_data_dict
 
 
 @socketio.on('my event')

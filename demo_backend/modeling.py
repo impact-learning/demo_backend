@@ -1,35 +1,23 @@
 import tensorflow as tf
 import rethinkdb as r
 import numpy as np
+import pandas as pd
 from demo_backend.models import db
 from demo_backend.settings import ProdConfig
+from sklearn.feature_extraction import DictVectorizer
 
 
-def get_data():
+def preprocessing_data():
     conn = r.connect(ProdConfig.DB_HOST, ProdConfig.DB_PORT)
-    cursor = db.table('township_village').pluck(['county', 'township', 'village', 'scores', 'average_income_per_capita']).run(conn)
-    final_data = []
+    cursor = db.table('township_village') \
+        .pluck(['county', 'township', 'village', 'scores', 'average_income_per_capita']).run(conn)
     villages = []
-    town_dict = {}
-    village_dict = {}
+
     for item in cursor:
+        incomes = []
         for income in item['average_income_per_capita']:
             data = {}
-            if item['township'] in town_dict:
-                data['township'] = town_dict[item['township']]
-            else:
-                size = len(town_dict)
-                data['township'] = size
-                town_dict[item['township']] = size
-
-            if item['village'] in village_dict:
-                data['village'] = village_dict[item['village']]
-            else:
-                size = len(village_dict)
-                data['village'] = size
-                village_dict[item['village']] = size
-
-            avg_income = np.sum([
+            data['avg_income'] = np.sum([
                 income['distribution']['below_5k'] * 2500,
                 income['distribution']['5k_10k'] * (5000 + 10000) / 2,
                 income['distribution']['10k_15k'] * (10000 + 15000) / 2,
@@ -37,27 +25,21 @@ def get_data():
                 income['distribution']['20k_25k'] * (20000 + 25000) / 2,
                 income['distribution']['above_25k'] * 25000,
             ])
-            data['avg_income'] = avg_income
             data['year'] = income['year']
-            villages.append(data)
-        for score in item['scores']:
-            vs = [x for x in villages if lambda x: x['year'] == score['year'] and x['village'] == item['village'] and x['county'] == item['county'] and x['township'] == item['township']]
-            for k, v in score.iteritems():
-                vs[0][k] = v
-            # import ipdb
-            # ipdb.set_trace()
-            final_data.append(vs[0])
+            incomes.append(data)
+
+        result = pd.merge(pd.DataFrame(incomes), pd.DataFrame(item['scores']), on='year')
+        result['township'] = item['township']
+        result['village'] = item['village']
+        villages.append(result)
 
     conn.close()
-    return {
-        'town_dict': town_dict,
-        'village_dict': village_dict,
-        'data': final_data
-    }
+    return pd.concat(villages)
 
 
 def train_model():
-    data = get_data()
+    data = preprocessing_data()
+
     # Parameters
     learning_rate = 0.01
     training_epochs = 25
@@ -69,11 +51,11 @@ def train_model():
     y = tf.placeholder(tf.float32, [None, 1])
 
     # Set model weights
-    W = tf.Variable(tf.zeros([21, 1]))
+    w = tf.Variable(tf.zeros([21, 1]))
     b = tf.Variable(tf.zeros([1]))
 
     # Construct model
-    pred = tf.nn.softmax(tf.matmul(x, W) + b)  # Softmax
+    pred = tf.nn.softmax(tf.matmul(x, w) + b)  # Softmax
 
     # Minimize error using cross entropy
     cost = tf.reduce_mean(-tf.reduce_sum(y * tf.log(pred), reduction_indices=1))
@@ -90,10 +72,10 @@ def train_model():
         # Training cycle
         for epoch in range(training_epochs):
             avg_cost = 0.
-            total_batch = int(mnist.train.num_examples/batch_size)
+            total_batch = int(len(data['data']) / batch_size)
             # Loop over all batches
             for i in range(total_batch):
-                batch_xs, batch_ys = mnist.train.next_batch(batch_size)
+                batch_xs, batch_ys = data['data'][:batch_size]
                 # Fit training using batch data
                 _, c = sess.run([optimizer, cost], feed_dict={x: batch_xs, y: batch_ys})
                 # Compute average loss
