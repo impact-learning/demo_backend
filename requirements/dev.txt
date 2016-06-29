@@ -1,6 +1,9 @@
 # Everything the developer needs in addition to the production requirements
 -r prod.txt
 
+# Debugging
+ipdb
+
 # Management script
 Flask-Script
 
