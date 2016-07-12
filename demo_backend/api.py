@@ -17,11 +17,18 @@ def test_message(message):
 @socketio.on('search county')
 def handle_search(county):
     conn = r.connect(ProdConfig.DB_HOST, ProdConfig.DB_PORT)
-    cursor = db.table('township_village').pluck(['county', 'township', 'village', 'coordinates', 'scores', 'average_income_per_capita', 'number_of_trees']).run(conn)
+    cursor = db.table('township_village').pluck([
+        'county',
+        'township',
+        'village',
+        'coordinates',
+        'scores',
+        'average_income_per_capita',
+        'number_of_trees']).run(conn)
     villages = []
     for item in cursor:
         villages.append(item)
     emit('search response', villages)
 
     conn.close()
-    print 'Handle Serach'
+    # print 'Handle Serach'
