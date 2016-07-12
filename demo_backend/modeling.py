@@ -5,89 +5,61 @@ import pandas as pd
 from demo_backend.models import db
 from demo_backend.settings import ProdConfig
 from sklearn.feature_extraction import DictVectorizer
+from sklearn import cross_validation, metrics, preprocessing
+from tensorflow.contrib import learn
 
 
-def preprocessing_data():
-    conn = r.connect(ProdConfig.DB_HOST, ProdConfig.DB_PORT)
-    cursor = db.table('township_village') \
-        .pluck(['county', 'township', 'village', 'scores', 'average_income_per_capita']).run(conn)
+def grab_data():
+    conn = r.connect('localhost', '28015')
+    cursor = db.table('learning').pluck([
+            'Score',
+            'acu_donation',
+            'acu_planting_area',
+            'acu_plants',
+            'date',
+            'month',
+            'year',
+            'avg_income', 'project_stage']).run(conn)
     villages = []
-
     for item in cursor:
-        incomes = []
-        for income in item['average_income_per_capita']:
-            data = {}
-            data['avg_income'] = np.sum([
-                income['distribution']['below_5k'] * 2500,
-                income['distribution']['5k_10k'] * (5000 + 10000) / 2,
-                income['distribution']['10k_15k'] * (10000 + 15000) / 2,
-                income['distribution']['15k_20k'] * (15000 + 20000) / 2,
-                income['distribution']['20k_25k'] * (20000 + 25000) / 2,
-                income['distribution']['above_25k'] * 25000,
-            ])
-            data['year'] = income['year']
-            incomes.append(data)
-
-        result = pd.merge(pd.DataFrame(incomes), pd.DataFrame(item['scores']), on='year')
-        result['township'] = item['township']
-        result['village'] = item['village']
-        villages.append(result)
-
+        villages.append(item)
     conn.close()
-    return pd.concat(villages)
+    return pd.DataFrame(villages)
 
 
 def train_model():
-    data = preprocessing_data()
+    data = grab_data()
+    # Pick features for taining
+    feature_cols = [col for col in data.columns if col not in [
+            u'date',
+            u'Score',
+            u'coordinates',
+            u'id'
+        ]]
+    x = data[feature_cols].to_dict(orient='records')
 
-    # Parameters
-    learning_rate = 0.01
-    training_epochs = 25
-    batch_size = 100
-    display_step = 1
+    vec = DictVectorizer()
+    features = vec.fit_transform(x)
 
-    # tf Graph Input
-    x = tf.placeholder(tf.float32, [None, 21])
-    y = tf.placeholder(tf.float32, [None, 1])
+    x = features.toarray()
+    y = data[u'Score'].values
 
-    # Set model weights
-    w = tf.Variable(tf.zeros([21, 1]))
-    b = tf.Variable(tf.zeros([1]))
+    # Split dataset into train / test
+    x_train, x_test, y_train, y_test = cross_validation.train_test_split(x, y, test_size=0.2, random_state=42)
 
-    # Construct model
-    pred = tf.nn.softmax(tf.matmul(x, w) + b)  # Softmax
+    # Scale data (training set) to 0 mean and unit standard deviation.
+    scaler = preprocessing.StandardScaler()
+    x_train = scaler.fit_transform(x_train)
 
-    # Minimize error using cross entropy
-    cost = tf.reduce_mean(-tf.reduce_sum(y * tf.log(pred), reduction_indices=1))
-    # Gradient Descent
-    optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)
+    # Build 2 layer fully connected DNN with 10, 10 units respectively.
+    regressor = learn.DNNRegressor(hidden_units=[features.shape[1], round(features.shape[1]/2)])
 
-    # Initializing the variables
-    init = tf.initialize_all_variables()
+    # Fit
+    regressor.fit(x_train, y_train, steps=5000, batch_size=1)
 
-    # Launch the graph
-    with tf.Session() as sess:
-        sess.run(init)
+    # Predict and score
+    y_predicted = regressor.predict(scaler.transform(x_test))
+    score = metrics.mean_squared_error(y_test, y_predicted)
 
-        # Training cycle
-        for epoch in range(training_epochs):
-            avg_cost = 0.
-            total_batch = int(len(data['data']) / batch_size)
-            # Loop over all batches
-            for i in range(total_batch):
-                batch_xs, batch_ys = data['data'][:batch_size]
-                # Fit training using batch data
-                _, c = sess.run([optimizer, cost], feed_dict={x: batch_xs, y: batch_ys})
-                # Compute average loss
-                avg_cost += c / total_batch
-            # Display logs per epoch step
-            if (epoch + 1) % display_step == 0:
-                print "Epoch:", '%04d' % (epoch + 1), "cost=", "{:.9f}".format(avg_cost)
-
-        print "Optimization Finished!"
-
-        # Test model
-        correct_prediction = tf.equal(tf.argmax(pred, 1), tf.argmax(y, 1))
-        # Calculate accuracy for 3000 examples
-        accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-        print "Accuracy:", accuracy.eval({x: mnist.test.images[:3000], y: mnist.test.labels[:3000]})
+    print('MSE: {0:f}'.format(score))
+    return regressor

@@ -452,3 +452,57 @@
 2016-07-11T15:49:49.542753000 81941.381703s info: Table fdbb3a62-9972-4640-8a02-56967b533396: Starting a new Raft election for term 1.
 2016-07-11T15:49:49.543028000 81941.381977s info: Table fdbb3a62-9972-4640-8a02-56967b533396: Added replica on this server.
 2016-07-11T15:49:49.554205000 81941.393154s info: Table fdbb3a62-9972-4640-8a02-56967b533396: This server is Raft leader for term 1. Latest log index is 0.
+2016-07-12T09:45:19.192493000 0.343616s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-12T09:45:19.197559000 0.348679s notice: Running on Darwin 15.5.0 x86_64
+2016-07-12T09:45:19.197592000 0.348711s notice: Loading data from directory /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data
+2016-07-12T09:45:19.219585000 0.370704s info: Automatically using cache size of 6476 MB
+2016-07-12T09:45:19.221002000 0.372121s notice: Listening for intracluster connections on port 29015
+2016-07-12T09:45:19.299311000 0.450430s notice: Listening for client driver connections on port 28015
+2016-07-12T09:45:19.299437000 0.450556s notice: Listening for administrative HTTP connections on port 8080
+2016-07-12T09:45:19.299439000 0.450558s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-12T09:45:19.299456000 0.450574s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-12T09:45:19.299457000 0.450576s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-12T09:45:19.299458000 0.450577s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-12T09:45:19.299460000 0.450578s notice: Server ready, "Terrences_MacBook_Pro_local_lea" 661f4c24-e833-4341-8ca3-4443b0f3a5e4
+2016-07-12T09:45:20.611425000 1.762565s info: Table fdbb3a62-9972-4640-8a02-56967b533396: Starting a new Raft election for term 2.
+2016-07-12T09:45:20.619687000 1.770827s info: Table fdbb3a62-9972-4640-8a02-56967b533396: This server is Raft leader for term 2. Latest log index is 3.
+2016-07-12T09:45:20.730087000 1.881228s info: Table 7a3fe29e-375c-4c09-bf22-c1f3242a47fd: Starting a new Raft election for term 3.
+2016-07-12T09:45:20.739725000 1.890865s info: Table 7a3fe29e-375c-4c09-bf22-c1f3242a47fd: This server is Raft leader for term 3. Latest log index is 6.
+2016-07-12T09:45:20.776394000 1.927535s info: Table f77cd049-ffc7-4508-b0ef-553499f8343e: Starting a new Raft election for term 2.
+2016-07-12T09:45:20.786132000 1.937272s info: Table f77cd049-ffc7-4508-b0ef-553499f8343e: This server is Raft leader for term 2. Latest log index is 3.
+2016-07-12T09:45:20.954867000 2.106007s info: Table 60015da5-314a-47bf-bc88-84a7774ea82c: Starting a new Raft election for term 5.
+2016-07-12T09:45:20.968626000 2.119766s info: Table 60015da5-314a-47bf-bc88-84a7774ea82c: This server is Raft leader for term 5. Latest log index is 12.
+2016-07-12T09:49:39.848991000 261.007116s notice: Server got SIGINT from pid 803, uid 501; shutting down...
+2016-07-12T09:49:39.849169000 261.007293s notice: Shutting down client connections...
+2016-07-12T09:49:39.849582000 261.007707s notice: All client connections closed.
+2016-07-12T09:49:39.849595000 261.007718s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-12T09:49:39.860792000 261.018916s notice: Storage engine shut down.
+2016-07-12T13:46:13.727209000 0.043656s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-12T13:46:13.730618000 0.047062s notice: Running on Darwin 15.5.0 x86_64
+2016-07-12T13:46:13.730641000 0.047084s notice: Loading data from directory /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data
+2016-07-12T13:46:13.756663000 0.073106s info: Automatically using cache size of 4784 MB
+2016-07-12T13:46:13.757587000 0.074030s notice: Listening for intracluster connections on port 29015
+2016-07-12T13:46:13.853879000 0.170322s notice: Listening for client driver connections on port 28015
+2016-07-12T13:46:13.853993000 0.170436s notice: Listening for administrative HTTP connections on port 8080
+2016-07-12T13:46:13.853995000 0.170438s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-12T13:46:13.854013000 0.170456s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-12T13:46:13.854014000 0.170457s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-12T13:46:13.854016000 0.170459s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-12T13:46:13.854018000 0.170460s notice: Server ready, "Terrences_MacBook_Pro_local_lea" 661f4c24-e833-4341-8ca3-4443b0f3a5e4
+2016-07-12T13:46:13.872347000 0.188790s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-07-12T13:46:14.968859000 1.285325s info: Table 60015da5-314a-47bf-bc88-84a7774ea82c: Starting a new Raft election for term 6.
+2016-07-12T13:46:14.978710000 1.295176s info: Table 60015da5-314a-47bf-bc88-84a7774ea82c: This server is Raft leader for term 6. Latest log index is 15.
+2016-07-12T13:46:15.208934000 1.525400s info: Table 7a3fe29e-375c-4c09-bf22-c1f3242a47fd: Starting a new Raft election for term 4.
+2016-07-12T13:46:15.224471000 1.540937s info: Table 7a3fe29e-375c-4c09-bf22-c1f3242a47fd: This server is Raft leader for term 4. Latest log index is 9.
+2016-07-12T13:46:15.243757000 1.560223s info: Table fdbb3a62-9972-4640-8a02-56967b533396: Starting a new Raft election for term 3.
+2016-07-12T13:46:15.257749000 1.574215s info: Table fdbb3a62-9972-4640-8a02-56967b533396: This server is Raft leader for term 3. Latest log index is 6.
+2016-07-12T13:46:15.396351000 1.712818s info: Table f77cd049-ffc7-4508-b0ef-553499f8343e: Starting a new Raft election for term 3.
+2016-07-12T13:46:15.407330000 1.723797s info: Table f77cd049-ffc7-4508-b0ef-553499f8343e: This server is Raft leader for term 3. Latest log index is 6.
+2016-07-12T14:56:37.100586000 4224.258253s info: Table 569fa9a6-cd41-4909-8061-659f8355f901: Starting a new Raft election for term 1.
+2016-07-12T14:56:37.100688000 4224.258355s info: Table 569fa9a6-cd41-4909-8061-659f8355f901: Added replica on this server.
+2016-07-12T14:56:37.114535000 4224.272202s info: Table 569fa9a6-cd41-4909-8061-659f8355f901: This server is Raft leader for term 1. Latest log index is 0.
+2016-07-12T15:07:47.546211000 4894.890016s notice: Removing file /Users/terrencelam/Documents/Dev/js/frontend-framework/backend/demo_backend/demo_backend/static/data/rethinkdb_data/569fa9a6-cd41-4909-8061-659f8355f901
+2016-07-12T15:07:47.546221000 4894.890025s info: Table 569fa9a6-cd41-4909-8061-659f8355f901: Deleted the table.
+2016-07-12T15:08:27.868069000 4935.223351s info: Table 34734879-d69c-4881-b978-18fa21a43fc5: Starting a new Raft election for term 1.
+2016-07-12T15:08:27.868370000 4935.223652s info: Table 34734879-d69c-4881-b978-18fa21a43fc5: Added replica on this server.
+2016-07-12T15:08:27.875624000 4935.230906s info: Table 34734879-d69c-4881-b978-18fa21a43fc5: This server is Raft leader for term 1. Latest log index is 0.
