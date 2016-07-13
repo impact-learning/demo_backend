@@ -5,7 +5,7 @@ from flask_socketio import emit
 from demo_backend.models import db
 import rethinkdb as r
 from demo_backend.settings import ProdConfig
-from demo_backend.modeling import grab_data
+from demo_backend.modeling import grab_data, grab_impact_data
 import pandas as pd
 import datetime
 
@@ -43,6 +43,6 @@ def handle_historical():
     test['date'] = pd.to_datetime(pd.DataFrame({
         'year': test.year,
         'month': test.month,
-        'day': 1})).apply(datetime.datetime.isoformat)
-    result = test[['date', 'Score']].to_dict()
+        'day': 1}))
+    result = test[['date', 'Score']].to_json(orient='records', date_format='iso')
     emit('response historical data', result)

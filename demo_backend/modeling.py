@@ -27,6 +27,27 @@ def grab_data():
     return pd.DataFrame(villages)
 
 
+def grab_impact_data():
+    conn = r.connect('localhost', '28015')
+    score_tb = db.table('learning').pluck([
+            'Score',
+            'acu_donation',
+            'acu_planting_area',
+            'acu_plants',
+            'date',
+            'month',
+            'year',
+            'township_village',
+            'avg_income', 'project_stage'])
+    coordinates_tb = db.table('township_village_coordinates')
+    cursor = score_tb.inner_join(coordinates_tb, lambda s, c: s['township_village'] == c['id']).zip().run(conn)
+    villages = []
+    for item in cursor:
+        villages.append(item)
+    conn.close()
+    return pd.DataFrame(villages)
+
+
 def train_model():
     data = grab_data()
     # Pick features for taining
