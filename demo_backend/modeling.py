@@ -14,7 +14,6 @@ def grab_data():
     cursor = db.table('learning').pluck([
             'Score',
             'acu_donation',
-            'acu_planting_area',
             'acu_plants',
             'date',
             'month',
