@@ -7,6 +7,7 @@ import rethinkdb as r
 from demo_backend.settings import ProdConfig
 from demo_backend.modeling import grab_data, grab_impact_data
 import pandas as pd
+import numpy as np
 import datetime
 
 
@@ -30,10 +31,11 @@ def handle_search(county):
 @socketio.on('get historical data')
 def handle_historical():
     data = grab_data()
-    test = data.groupby(['year', 'month']).mean().reset_index()
+    test = data.groupby(['year', 'month'])['Score'].agg([np.mean, np.median, np.max, np.min, np.var, np.std]).reset_index()
+    test.columns = ['year', 'month', 'Score', 'median', 'amax', 'amin', 'var', 'std']
     test['date'] = pd.to_datetime(pd.DataFrame({
         'year': test.year,
         'month': test.month,
         'day': 1}))
-    result = test[['date', 'Score']].to_json(orient='records', date_format='iso')
+    result = test[['date', 'Score', 'median', 'amax', 'amin', 'var', 'std']].to_json(orient='records', date_format='iso')
     emit('response historical data', result)
