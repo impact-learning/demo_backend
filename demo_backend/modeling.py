@@ -38,6 +38,12 @@ def grab_impact_data():
             'month',
             'year',
             'township_village',
+            'average_income-5k',
+            'average_income-5k_10k',
+            'average_income-10k_15k',
+            'average_income-15k_20k',
+            'average_income-20k_25k',
+            'average_income-25k',
             'avg_income', 'project_stage'])
     coordinates_tb = db.table('township_village_coordinates')
     cursor = score_tb.inner_join(coordinates_tb, lambda s, c: s['township_village'] == c['id']).zip().run(conn)

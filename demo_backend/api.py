@@ -18,22 +18,13 @@ def test_message(message):
 
 @socketio.on('search county')
 def handle_search(county):
-    conn = r.connect(ProdConfig.DB_HOST, ProdConfig.DB_PORT)
-    cursor = db.table('township_village').pluck([
-        'county',
-        'township',
-        'village',
-        'coordinates',
-        'scores',
-        'average_income_per_capita',
-        'number_of_trees']).run(conn)
-    villages = []
-    for item in cursor:
-        villages.append(item)
-    emit('search response', villages)
-
-    conn.close()
-    # print 'Handle Serach'
+    data = grab_impact_data()
+    data['date'] = pd.to_datetime(pd.DataFrame({
+            'year': data.year,
+            'month': data.month,
+            'day': 1}))
+    result = data.to_json(orient='records', date_format='iso')
+    emit('search response', result)
 
 
 @socketio.on('get historical data')
